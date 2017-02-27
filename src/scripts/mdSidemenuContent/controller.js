@@ -11,7 +11,7 @@ export default function() {
             angular.element(allmenu[i]).scope().$parent.$mdSidemenuContent.visible = false
         } 
     }
-    this.visible = !this.visible;
+    this.visible = this.visible || false;
   };
 
 }
