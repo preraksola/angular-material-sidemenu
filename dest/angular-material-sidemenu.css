@@ -17,7 +17,7 @@
   background-color: #fff;
   text-align: left;
   text-rendering: optimizeLegibility;
-  text-transform: none;
+  text-transform: uppercase;
 }
 
 .md-sidemenu .md-button:hover {
@@ -42,7 +42,7 @@ md-sidemenu-button {
 
 .md-sidemenu-button md-icon:first-child {
   max-width: 24px;
-  margin-right: 32px;
+  margin-right: 15px;
 }
 
 .md-sidemenu-button span {
